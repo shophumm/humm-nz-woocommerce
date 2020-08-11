@@ -158,3 +158,5 @@ Fixed an issue with empty_cart()
 = 1.1.1 =
 *Release Date - 20 Jun 2017*
 * Added readme.txt file
+
+==2.0.0 =
