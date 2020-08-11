@@ -159,4 +159,4 @@ Fixed an issue with empty_cart()
 *Release Date - 20 Jun 2017*
 * Added readme.txt file
 
-==2.0.0 =
+==2.0.0 =   May 2020
