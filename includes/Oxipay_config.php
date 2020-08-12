@@ -19,8 +19,7 @@ class Oxipay_Config
     const DISPLAY_NAME_BEFORE = 'Oxipay';
     const DISPLAY_NAME_AFTER = 'Humm';
     const PLUGIN_FILE_NAME = 'Oxipay';
-//  const LAUNCH_TIME_URL = 'https://s3-ap-southeast-2.amazonaws.com/humm-variables/launch-time.txt';
-    const LAUNCH_TIME_URL = 'https://s3-ap-southeast-2.amazonaws.com/humm-variables/launch-time.txt';
+    const LAUNCH_TIME_URL = 'https://humm-nz-launch.s3.amazonaws.com/switch-time.txt';
     const NZ_LAUNCH_TIME_URL = 'https://humm-nz-launch.s3.amazonaws.com/switch-time.txt';
     const NZ_LAUNCH_TIME_DEFAULT = "2020-09-14 09:00:00 UTC";
     const NZ_LAUNCH_TIME_CHECK_ENDS = "2020-12-14 09:30:00 UTC";
