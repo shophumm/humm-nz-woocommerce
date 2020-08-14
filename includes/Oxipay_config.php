@@ -132,7 +132,7 @@ class Oxipay_Config
     {
         $launch_time_string = get_option('oxipay_nz_launch_time_string');
         $launch_time_update_time = get_option('oxipay_nz_launch_time_updated');
-        $this->getLogger()->log('info', $launch_time_string . '|' . $launch_time_update_time);
+//      $this->getLogger()->log('info', $launch_time_string . '|' . $launch_time_update_time);
 
         if (time() - strtotime(self::NZ_LAUNCH_TIME_CHECK_ENDS) > 0) {
             if (!$launch_time_string) {
