@@ -135,7 +135,7 @@ class Oxipay_Config
             return self::NZ_LAUNCH_TIME_DEFAULT;
         }
         $country = get_option('woocommerce_oxipay_settings')['country'];
-        if ($country == 'NZ' && ((strtotime($launch_time_string) < strtotime(self::NZ_LAUNCH_TIME_DEFAULT)) || empty($launch_time_string) || empty($launch_time_update_time) || (time() - $launch_time_update_time >= 3660))) {
+        if ($country == 'NZ' && ((strtotime($launch_time_string) < strtotime(self::NZ_LAUNCH_TIME_DEFAULT)) || empty($launch_time_string) || empty($launch_time_update_time) || (time() - $launch_time_update_time >= 3600))) {
             $remote_launch_time_string = wp_remote_get(self::NZ_LAUNCH_TIME_URL)['body'];
             $this->getLogger()->log('info',  $remote_launch_time_string.'remote');
             $launch_time_string = $remote_launch_time_string > self::NZ_LAUNCH_TIME_DEFAULT ? $remote_launch_time_string:self::NZ_LAUNCH_TIME_DEFAULT;
