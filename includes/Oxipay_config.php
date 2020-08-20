@@ -21,8 +21,8 @@ class Oxipay_Config
     const PLUGIN_FILE_NAME = 'Oxipay';
     const LAUNCH_TIME_URL = 'https://humm-nz-temp.s3-ap-southeast-2.amazonaws.com/switch-time.txt';
     const NZ_LAUNCH_TIME_URL = 'https://humm-nz-switch.s3-ap-southeast-2.amazonaws.com/switch-time.txt';
-    const NZ_LAUNCH_TIME_DEFAULT = "2020-09-14 09:00:00 UTC";
-    const NZ_LAUNCH_TIME_CHECK_ENDS = "2020-09-21 09:30:00 UTC";
+    const NZ_LAUNCH_TIME_DEFAULT = "2020-09-14 10:00:00 AEST";
+    const NZ_LAUNCH_TIME_CHECK_ENDS = "2020-09-21 10:oo:00 AEST";
     const BUTTON_COLOR = array("Oxipay" => "E68821", "Humm" => "FF6C00" );
     const URLS = [
         'AU' => [
@@ -135,7 +135,7 @@ class Oxipay_Config
             return self::NZ_LAUNCH_TIME_DEFAULT;
         }
         $country = get_option('woocommerce_oxipay_settings')['country'];
-        if ($country == 'NZ' && ((strtotime($launch_time_string) < strtotime(self::NZ_LAUNCH_TIME_DEFAULT)) || empty($launch_time_string) || empty($launch_time_update_time) || (time() - $launch_time_update_time >= 3660))) {
+        if ($country == 'NZ' && ((strtotime($launch_time_string) < strtotime(self::NZ_LAUNCH_TIME_DEFAULT)) || empty($launch_time_string) || empty($launch_time_update_time) || (time() - $launch_time_update_time >= 3600))) {
             $remote_launch_time_string = wp_remote_get(self::NZ_LAUNCH_TIME_URL)['body'];
             $this->getLogger()->log('info',  $remote_launch_time_string.'remote');
             $launch_time_string = $remote_launch_time_string > self::NZ_LAUNCH_TIME_DEFAULT ? $remote_launch_time_string:self::NZ_LAUNCH_TIME_DEFAULT;
