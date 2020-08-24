@@ -9,8 +9,7 @@ woocommerce-specification.pdf
 NewVersioninstall.release
 
 for reference:
-* [**Humm** AU](https://docs.shophumm.com.au/platforms/woocommerce/)
-* [Oxipay NZ](http://docs.oxipay.co.nz/platforms/woocommerce/)
+* [**Humm** AU](https://docs.shophumm.co.nz/ecommerce/woocommerce/)
 
 ## Issues
 
