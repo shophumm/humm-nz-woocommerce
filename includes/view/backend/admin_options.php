@@ -4,13 +4,13 @@
 </div>
 <div id="humm_simplepath">
     <div id="simplepath_unsupported">
-        <p><a href="https://docs.shophumm.com.au/ecommerce/woocommerce/" target="_blank"> Humm Woocommerce
+        <p><a href="https://docs.shophumm.co.nz/ecommerce/woocommerce/" target="_blank"> Humm NZ Woocommerce
                 Documentation </a></p>
     </div>
 </div>
 
 <div id="humm_simplepath_back">
-    <p>If you don't have a humm merchant account you may join <a href="https://www.shophumm.com.au/sell-with-humm" target="_blank">here</a></p>
+    <p>If you don't have a humm merchant account you may join <a href="https://www.shophumm.co.nz/sell-with-humm" target="_blank">here</a></p>
 </div>
 <div id="humm-container">
     <table class="form-table">
