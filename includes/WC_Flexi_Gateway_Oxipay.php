@@ -136,6 +136,7 @@ abstract class WC_Flexi_Gateway_Oxipay extends WC_Payment_Gateway
                 'type' => 'select',
                 'class' => 'wc-enhanced-select',
                 'description' => 'Select the option that matches your retailer agreement.',
+                'default' => 'NZ',
                 'options' => $countryOptions,
                 'desc_tip' => true,
                 'custom_attributes' => array('required' => 'required'),
