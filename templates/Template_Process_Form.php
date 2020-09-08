@@ -97,6 +97,7 @@ oxipay_generate_processing_form($query);
             }, 500);
         }
         else {
+            console.log("start humm-nz...")
             console.log(document.forms.processForm.version_info.value);
             document.getElementById('oxipayload').submit();
         }
