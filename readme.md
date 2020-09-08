@@ -1,4 +1,4 @@
-# Oxipay's WooCommerce Plugin [![Build status](https://ci.appveyor.com/api/projects/status/jgrgyfkq3147nh8l?svg=true)](https://ci.appveyor.com/project/oxipay/oxipay-woocommerce)
+# HUMM-NZ WooCommerce Plugin [![Build status](https://ci.appveyor.com/api/projects/status/jgrgyfkq3147nh8l?svg=true)](https://ci.appveyor.com/project/oxipay/oxipay-woocommerce)
 
 ## WordPress Plugin Description
 
@@ -13,6 +13,6 @@ for reference:
 
 ## Issues
 
-Contact [pit@shophumm.com.au](mailto:pit@shophumm.com.au)
+Contact [pit@shophumm.com.nz](mailto:pit@shophumm.com.nz)
 
 Please include your Merchant ID if applicable.
