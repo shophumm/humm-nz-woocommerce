@@ -56,7 +56,6 @@ function oxipay(q) {
         var baseUrl = getBaseUrl(targetUrl);
 
         model.data = keyValue;
-
         stylesheetUrl = baseUrl + stylesheetUrl;
         if (stylesheetURL) {
             stylesheetUrl = stylesheetURL;

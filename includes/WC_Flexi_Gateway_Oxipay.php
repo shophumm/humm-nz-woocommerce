@@ -657,15 +657,8 @@ abstract class WC_Flexi_Gateway_Oxipay extends WC_Payment_Gateway
                 $merchant_type = '';
             }
             $this->description = __('<div id="checkout_method_humm_anchor"></div><script src="https://widgets.shophumm.' . $country_domain . '/content/scripts/' . $widget_type . '.js?used_in=checkout&productPrice=' . $checkout_total . '&element=%23checkout_method_humm_anchor' . $merchant_type .'&little=f5'.'"></script>', 'WooCommerce');
-            $this->description1 = __('<div id="checkout_method_humm_anchor"></div><script src="https://widgets.shophumm.' . $country_domain . '/content/scripts/' . $widget_type . '.js?used_in=checkout&productPrice=' . $checkout_total . '&element=%23checkout_method_humm_anchor' . $merchant_type .'&little=w10' .'"></script>', 'WooCommerce');
         }
-//        else {
-//            $widget_type = (isset($this->settings['country']) && $this->settings['country'] == 'NZ') ? 'payments' : 'payments-weekly';
-//            $this->description = __('<div id="checkout_method_oxipay_anchor"></div><script src="https://widgets.oxipay.' . $country_domain . '/content/scripts/' . $widget_type . '.js?used_in=checkout&productPrice=' . $checkout_total . '&element=%23checkout_method_oxipay_anchor"></script>', 'woocommerce');
-//        }
         echo $this->description;
-        echo $this->description1;
-
     }
 
     /**
