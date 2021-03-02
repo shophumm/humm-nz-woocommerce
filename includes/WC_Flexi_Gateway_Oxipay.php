@@ -984,6 +984,7 @@ abstract class WC_Flexi_Gateway_Oxipay extends WC_Payment_Gateway
             }
         }
         else {
+            if($params["key"])
             $this->call_redirect($order, $order_id);
         }
 
