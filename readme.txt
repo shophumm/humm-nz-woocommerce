@@ -1,3 +1,20 @@
+
+==2.1.0=  Jan 2021
+
+Rebuild Checkout and remove call outside redirect php code
+
+Roger.bi@flexigroup.com.au
+
+
+==2.0.0=  May 2020
+
+Rebuild plugins
+
+Roger.bi@felxigroup.com.au
+
+
+
+
 === Humm / Oxipay Payment Gateway for WooCommerce ===
 Tags: humm, Oxipay
 Stable tag: trunk
@@ -159,4 +176,3 @@ Fixed an issue with empty_cart()
 *Release Date - 20 Jun 2017*
 * Added readme.txt file
 
-==2.0.0 =   May 2020
