@@ -1,20 +1,3 @@
-
-==2.1.0=  Jan 2021
-
-Rebuild Checkout and remove call outside redirect php code
-
-Roger.bi@flexigroup.com.au
-
-
-==2.0.0=  May 2020
-
-Rebuild plugins
-
-Roger.bi@felxigroup.com.au
-
-
-
-
 === Humm / Oxipay Payment Gateway for WooCommerce ===
 Tags: humm, Oxipay
 Stable tag: trunk
@@ -23,19 +6,15 @@ Requires PHP: 5.6
 Tested up to: 5.2.2
 License: GNU General Public License v3.0
 
-New Zealand - Oxipay
+New Zealand -  **humm**
 Australia - **humm**
 
 == Description ==
-New Zealand – Oxipay 
+New Zealand – humm
 
-Oxipay lets you spread the cost of your purchases over 4 fortnightly payments – interest free forever.  You can shop online or instore at any Oxipay retail partner. 
+Humm lets you spread the cost of your purchases over 4 fortnightly payments – interest free forever.  You can shop online or instore at any Humm retail partner.
 
-https://oxipay.co.nz 
-
- 
-
-Australia – **humm** 
+Australia – **humm**
 
 Humm is the Buy Now Pay Later service that’s perfect for both the ‘Little things’ and ‘Big things’ in life.  Customers can buy everything from $1 to $30,000 depending on where they shop.  All purchases with **humm** are interest free forever.  
 
@@ -58,15 +37,26 @@ Upload the plugin to your blog, Activate it.
 Go to WooCommerce -> Settings -> Payments -> **humm** / Oxipay
 
 **Humm is currently only available in Australia.**
-**Oxipay is currently only available in New Zealand.**
+**Humm is currently only available in New Zealand.**
 
 **Humm** Australia:
 https://shophumm.com.au
 
 Oxipay New Zealand:
-https://oxipay.co.nz
+https://shophumm.co.nz
+
 
 == Changelog ==
+
+==2.1.0=  Jan 2021
+
+Rebuild Checkout and remove call outside redirect php code
+
+Roger.bi@flexigroup.com.au
+
+==2.0.0=  May 2020
+
+Rebuild plugins
 
 = 1.7.6 =
 *Release Date 30 Jul 2019*
@@ -175,4 +165,7 @@ Fixed an issue with empty_cart()
 = 1.1.1 =
 *Release Date - 20 Jun 2017*
 * Added readme.txt file
+
+
+
 
