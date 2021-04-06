@@ -3,7 +3,7 @@
  * Plugin Name: HummPayment
  * Plugin URI: https://www.shophumm.co.nz
  * Description: In NewZealand - <a href="https://www.shophumm.co.nz"><strong>hummpayment</strong></a>
- * Version:           2.1.0
+ * Version:           2.1.1
  * Author:            HummGroup
  * Author URI:
  * License:           GPL-2.0+
@@ -11,7 +11,7 @@
  * Github URI:
  * WC requires at least:
  * WC tested up to:
- * @version  2.1.0
+ * @version  2.1.1
  * @package  HummGroup
  * @author   HummGroup
  * package WordPress
