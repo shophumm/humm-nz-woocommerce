@@ -48,6 +48,12 @@ https://shophumm.co.nz
 
 == Changelog ==
 
+==2.1.1=  April  2021
+
+In addition to 2.1.0, remove redundancy PHP code: ex remove legend redirect php code for better safe and fast performance
+
+Roger.bi@flexigroup.com.au
+
 ==2.1.0=  Jan 2021
 
 Rebuild Checkout and remove call outside redirect php code
